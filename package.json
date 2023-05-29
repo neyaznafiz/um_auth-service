@@ -14,7 +14,7 @@
     "pret:lint": "yarn lint:check && yarn pret:check"
   },
   "lint-staged": {
-    "src/*.ts": "yarn pret:lint"
+    "src/**/*.ts": "yarn pret:lint"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",

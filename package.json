@@ -8,9 +8,10 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
-    "lint:fix": "eslint --fix",
-    "pret:fix": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "pret:lint": "yarn lint:check && yarn pret:fix"
+    "lint:fix": "eslint . --fix",
+    "pret:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "pret:fix": "prettier --write .",
+    "pret:lint": "yarn lint:check && yarn pret:check"
   },
   "lint-staged": {
     "src/*.ts": "yarn pret:lint"

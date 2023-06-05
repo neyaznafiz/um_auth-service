@@ -1,0 +1,42 @@
+{
+  message: '✅ Database connected successful',
+  level: 'info',
+  service: 'user-service',
+  label: 'meow! Success',
+  timestamp: '2023-06-03T19:35:30.785Z'
+}
+{
+  message: '✅ UMP Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'meow! Success',
+  timestamp: '2023-06-03T19:35:30.793Z'
+}
+{
+  message: '✅ Database connected successful',
+  level: 'info',
+  service: 'user-service',
+  label: 'meow! Success',
+  timestamp: '2023-06-03T19:36:16.568Z'
+}
+{
+  message: '✅ UMP Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'meow! Success',
+  timestamp: '2023-06-03T19:36:16.575Z'
+}
+Sun Jun 04 2023 1:37:57 - [meow! Success] info: ✅ Database connected successful
+Sun Jun 04 2023 1:37:57 - [meow! Success] info: ✅ UMP Application listening on port 5000
+Sun Jun 04 2023 1:38:14 - [meow! Success] info: ✅ Database connected successful
+Sun Jun 04 2023 1:38:14 - [meow! Success] info: ✅ UMP Application listening on port 5000
+Sun Jun 04 2023 1:38:21 - [meow! Success] info: ✅ Database connected successful
+Sun Jun 04 2023 1:38:21 - [meow! Success] info: ✅ UMP Application listening on port 5000
+Sun Jun 04 2023 1:38:30 - [meow! Success] info: ✅ Database connected successful
+Sun Jun 04 2023 1:38:30 - [meow! Success] info: ✅ UMP Application listening on port 5000
+Sun Jun 04 2023 1:38:32 - [meow! Success] info: ✅ Database connected successful
+Sun Jun 04 2023 1:38:32 - [meow! Success] info: ✅ UMP Application listening on port 5000
+Sun Jun 04 2023 1:38:35 - [meow! Success] info: ✅ Database connected successful
+Sun Jun 04 2023 1:38:35 - [meow! Success] info: ✅ UMP Application listening on port 5000
+Sun Jun 04 2023 1:38:39 - [meow! Success] info: ✅ Database connected successful
+Sun Jun 04 2023 1:38:39 - [meow! Success] info: ✅ UMP Application listening on port 5000

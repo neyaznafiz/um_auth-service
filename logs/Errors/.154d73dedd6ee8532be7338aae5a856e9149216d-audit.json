@@ -1,0 +1,30 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\Documents\\Programming\\Web-Development-Course\\Next Level Web Development\\Milestone-3\\University-Management-Project\\logs\\Errors\\.154d73dedd6ee8532be7338aae5a856e9149216d-audit.json",
+  "files": [
+    {
+      "date": 1685820929502,
+      "name": "D:\\Documents\\Programming\\Web-Development-Course\\Next Level Web Development\\Milestone-3\\University-Management-Project\\logs\\Errors\\um-2023-06-04-01-error.log",
+      "hash": "71c737c8a0089618bc5390f79fc3f822f62a4ab7db23c18ef2fe6d0db2f55d69"
+    },
+    {
+      "date": 1685822771518,
+      "name": "D:\\Documents\\Programming\\Web-Development-Course\\Next Level Web Development\\Milestone-3\\University-Management-Project\\logs\\Errors\\um-2023-06-04-02-error.log",
+      "hash": "b7d03d36227f6079148c0db376fbda5feb3076ace248eeea89e51863af792f0c"
+    },
+    {
+      "date": 1685848711962,
+      "name": "D:\\Documents\\Programming\\Web-Development-Course\\Next Level Web Development\\Milestone-3\\University-Management-Project\\logs\\Errors\\um-2023-06-04-09-error.log",
+      "hash": "0438cfe790a92ce4c167c596300053050fea61de402589e9d06c1c769ec13c0d"
+    },
+    {
+      "date": 1685851526029,
+      "name": "D:\\Documents\\Programming\\Web-Development-Course\\Next Level Web Development\\Milestone-3\\University-Management-Project\\logs\\Errors\\um-2023-06-04-10-error.log",
+      "hash": "39858a6664cbe2efbee5c9ef1d7460b0319394e9d0f8a4dd90eae1c6c7b7e4d7"
+    }
+  ],
+  "hashType": "sha256"
+}

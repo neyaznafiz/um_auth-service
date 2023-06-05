@@ -1,23 +1,16 @@
-import { NextFunction, Request, Response } from 'express';
+import { ErrorRequestHandler } from 'express';
 import config from '../../Config/config';
 import { TGenericErrorMessage } from '../../Interfaces/errorInterface';
 import handleValidationError from '../../Errors/handleValidationError';
 import ApiError from '../../Errors/apiError';
-import { error } from 'winston';
-import { Error } from 'mongoose';
 
-const globalErrorHandler = (
-  err,
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   let statusCode = 500;
   let message = 'Something went wrong';
   let errorMessages: TGenericErrorMessage[] = [];
 
-  if (err?.name === 'ValidatonError') {
-    const simplifiedError = handleValidationError(err);
+  if (error?.name === 'ValidatonError') {
+    const simplifiedError = handleValidationError(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
@@ -48,7 +41,7 @@ const globalErrorHandler = (
     success: false,
     message,
     errorMessages,
-    stack: config.node_env !== 'production' ? err?.stack : undefined,
+    stack: config.node_env !== 'production' ? error?.stack : undefined,
   });
   next();
 };
